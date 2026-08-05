@@ -21,7 +21,7 @@
     ]
   },
   "app/components/site-header.tsx": {
-    "file": "assets/site-header-B4fd5-Xp.js",
+    "file": "assets/site-header-DpZXcLGn.js",
     "name": "site-header",
     "src": "app/components/site-header.tsx",
     "isDynamicEntry": true,
@@ -32,7 +32,7 @@
     ]
   },
   "app/rsvp/rsvp-form.tsx": {
-    "file": "assets/rsvp-form-DArwKuc_.js",
+    "file": "assets/rsvp-form-BGRDQyTY.js",
     "name": "rsvp-form",
     "src": "app/rsvp/rsvp-form.tsx",
     "isDynamicEntry": true,
@@ -42,7 +42,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-C_V3Rquh.js",
+    "file": "assets/layout-segment-context-Da8qucz8.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -53,7 +53,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/link.js": {
-    "file": "assets/link-ZSP2VrH1.js",
+    "file": "assets/link-DtYBRIk0.js",
     "name": "link",
     "src": "node_modules/vinext/dist/shims/link.js",
     "isDynamicEntry": true,
@@ -67,7 +67,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-BoegEiLn.js",
+    "file": "assets/router-Di-XYuOW.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
@@ -82,7 +82,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-RoF2gLMN.js",
+    "file": "assets/index-CYPpYvMQ.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
