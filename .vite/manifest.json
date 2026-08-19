@@ -6,8 +6,8 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_link-DIgv6BZA.js": {
-    "file": "assets/link-DIgv6BZA.js",
+  "_link-D45wYHnw.js": {
+    "file": "assets/link-D45wYHnw.js",
     "name": "link",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -22,13 +22,13 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
-  "_site-header-B0z7x9kq.js": {
-    "file": "assets/site-header-B0z7x9kq.js",
+  "_site-header-B5n8CkKV.js": {
+    "file": "assets/site-header-B5n8CkKV.js",
     "name": "site-header",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js",
-      "_link-DIgv6BZA.js"
+      "_link-D45wYHnw.js"
     ]
   },
   "app/components/guide-section-nav.tsx": {
@@ -42,7 +42,7 @@
     ]
   },
   "app/rsvp/confirmation/rsvp-confirmation-view.tsx": {
-    "file": "assets/rsvp-confirmation-view-fQGOB8wn.js",
+    "file": "assets/rsvp-confirmation-view-6fn6P8-h.js",
     "name": "rsvp-confirmation-view",
     "src": "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
     "isDynamicEntry": true,
@@ -63,20 +63,20 @@
     ]
   },
   "app/rsvp/rsvp-route-client.tsx": {
-    "file": "assets/rsvp-route-client-DO36T35n.js",
+    "file": "assets/rsvp-route-client-d_6FPTnU.js",
     "name": "rsvp-route-client",
     "src": "app/rsvp/rsvp-route-client.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_site-header-B0z7x9kq.js",
+      "_site-header-B5n8CkKV.js",
       "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
       "app/rsvp/rsvp-confirmation-context.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-CCo9f-W4.js",
+    "file": "assets/layout-segment-context-BJHqft54.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -87,7 +87,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-DCsIFhXk.js",
+    "file": "assets/router-DGA_EtmQ.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
@@ -95,14 +95,14 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js",
-      "_link-DIgv6BZA.js"
+      "_link-D45wYHnw.js"
     ],
     "dynamicImports": [
       "_framework-CXnKph_e.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DglNWXtA.js",
+    "file": "assets/index-BF3zMaR6.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -114,11 +114,11 @@
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/rsvp/rsvp-confirmation-context.tsx",
       "app/components/guide-section-nav.tsx",
-      "_site-header-B0z7x9kq.js",
+      "_site-header-B5n8CkKV.js",
       "virtual:vinext-app-browser-entry",
       "app/rsvp/rsvp-route-client.tsx",
       "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
-      "_link-DIgv6BZA.js"
+      "_link-D45wYHnw.js"
     ]
   }
 }
