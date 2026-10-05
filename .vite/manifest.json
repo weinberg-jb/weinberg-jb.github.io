@@ -1,4 +1,13 @@
 {
+  "_content-page-BVPDjCX5.js": {
+    "file": "assets/content-page-BVPDjCX5.js",
+    "name": "content-page",
+    "imports": [
+      "_site-footer-CfbejqvP.js",
+      "_site-header-DhNlUcOL.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "_framework-CXnKph_e.js": {
     "file": "assets/framework-CXnKph_e.js",
     "name": "framework",
@@ -6,54 +15,112 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_link-hgEmusYK.js": {
-    "file": "assets/link-hgEmusYK.js",
-    "name": "link",
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "_site-footer-CfbejqvP.js": {
+    "file": "assets/site-footer-CfbejqvP.js",
+    "name": "site-footer",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "app/components/language-provider.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "_site-header-DhNlUcOL.js": {
+    "file": "assets/site-header-DhNlUcOL.js",
+    "name": "site-header",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
+      "app/components/language-provider.tsx",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
       "node_modules/vinext/dist/shims/router.js"
     ]
   },
-  "_rolldown-runtime-S-ySWqyJ.js": {
-    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
-    "name": "rolldown-runtime"
-  },
-  "_site-header-D833ujOr.js": {
-    "file": "assets/site-header-D833ujOr.js",
-    "name": "site-header",
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js",
-      "_link-hgEmusYK.js"
-    ]
-  },
-  "app/components/guide-section-nav.tsx": {
-    "file": "assets/guide-section-nav-CGL7f808.js",
-    "name": "guide-section-nav",
-    "src": "app/components/guide-section-nav.tsx",
+  "app/components/language-provider.tsx": {
+    "file": "assets/language-provider-RX_KWoCj.js",
+    "name": "language-provider",
+    "src": "app/components/language-provider.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/components/language-switcher.tsx": {
+    "file": "assets/language-switcher-CTMko5D6.js",
+    "name": "language-switcher",
+    "src": "app/components/language-switcher.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "app/components/language-provider.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/faq/faq-content.tsx": {
+    "file": "assets/faq-content-CWtyExBq.js",
+    "name": "faq-content",
+    "src": "app/faq/faq-content.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_content-page-BVPDjCX5.js",
+      "app/components/language-provider.tsx",
+      "_site-header-DhNlUcOL.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/guide/guide-content.tsx": {
+    "file": "assets/guide-content-Blrlnyb_.js",
+    "name": "guide-content",
+    "src": "app/guide/guide-content.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_content-page-BVPDjCX5.js",
+      "app/components/language-provider.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/page.tsx": {
+    "file": "assets/page-B6sOgSyv.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "app/components/language-provider.tsx",
+      "_site-header-DhNlUcOL.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/registry/registry-content.tsx": {
+    "file": "assets/registry-content-C9MsbmMU.js",
+    "name": "registry-content",
+    "src": "app/registry/registry-content.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_content-page-BVPDjCX5.js",
+      "app/components/language-provider.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/rsvp/confirmation/rsvp-confirmation-view.tsx": {
-    "file": "assets/rsvp-confirmation-view-6fn6P8-h.js",
+    "file": "assets/rsvp-confirmation-view-BuXHze2o.js",
     "name": "rsvp-confirmation-view",
     "src": "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "app/components/language-provider.tsx",
       "app/rsvp/rsvp-confirmation-context.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/rsvp/rsvp-confirmation-context.tsx": {
-    "file": "assets/rsvp-confirmation-context-DBOF3fn4.js",
+    "file": "assets/rsvp-confirmation-context-CZmrRR7h.js",
     "name": "rsvp-confirmation-context",
     "src": "app/rsvp/rsvp-confirmation-context.tsx",
     "isDynamicEntry": true,
@@ -63,20 +130,33 @@
     ]
   },
   "app/rsvp/rsvp-route-client.tsx": {
-    "file": "assets/rsvp-route-client-i3_lA9H_.js",
+    "file": "assets/rsvp-route-client-ZBtJVZKL.js",
     "name": "rsvp-route-client",
     "src": "app/rsvp/rsvp-route-client.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_site-header-D833ujOr.js",
+      "_content-page-BVPDjCX5.js",
+      "app/components/language-provider.tsx",
       "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
       "app/rsvp/rsvp-confirmation-context.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/schedule/schedule-content.tsx": {
+    "file": "assets/schedule-content-GNpVSA7q.js",
+    "name": "schedule-content",
+    "src": "app/schedule/schedule-content.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_content-page-BVPDjCX5.js",
+      "app/components/language-provider.tsx",
+      "_site-header-DhNlUcOL.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-CRLXYOlU.js",
+    "file": "assets/layout-segment-context-Bd7cg4TN.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -87,22 +167,22 @@
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-CSTWwtjV.js",
+    "file": "assets/router-BSq3ZU2D.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js",
-      "_link-hgEmusYK.js"
+      "_site-header-DhNlUcOL.js",
+      "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
       "_framework-CXnKph_e.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-jlFASfeK.js",
+    "file": "assets/index-B8zS3LCf.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -113,12 +193,18 @@
     "dynamicImports": [
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/rsvp/rsvp-confirmation-context.tsx",
-      "app/components/guide-section-nav.tsx",
-      "_site-header-D833ujOr.js",
+      "_site-header-DhNlUcOL.js",
+      "app/schedule/schedule-content.tsx",
       "virtual:vinext-app-browser-entry",
+      "_site-footer-CfbejqvP.js",
       "app/rsvp/rsvp-route-client.tsx",
+      "app/page.tsx",
       "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
-      "_link-hgEmusYK.js"
+      "app/components/language-provider.tsx",
+      "app/registry/registry-content.tsx",
+      "app/guide/guide-content.tsx",
+      "app/components/language-switcher.tsx",
+      "app/faq/faq-content.tsx"
     ]
   }
 }
