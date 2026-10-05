@@ -1,10 +1,10 @@
 {
-  "_content-page-BVPDjCX5.js": {
-    "file": "assets/content-page-BVPDjCX5.js",
+  "_content-page-Bu3fTnxU.js": {
+    "file": "assets/content-page-Bu3fTnxU.js",
     "name": "content-page",
     "imports": [
       "_site-footer-CfbejqvP.js",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "_framework-CXnKph_e.js"
     ]
   },
@@ -28,8 +28,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_site-header-DhNlUcOL.js": {
-    "file": "assets/site-header-DhNlUcOL.js",
+  "_site-header-B-tPCmbw.js": {
+    "file": "assets/site-header-B-tPCmbw.js",
     "name": "site-header",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -62,47 +62,47 @@
     ]
   },
   "app/faq/faq-content.tsx": {
-    "file": "assets/faq-content-CWtyExBq.js",
+    "file": "assets/faq-content-DTD195OL.js",
     "name": "faq-content",
     "src": "app/faq/faq-content.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_content-page-BVPDjCX5.js",
+      "_content-page-Bu3fTnxU.js",
       "app/components/language-provider.tsx",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/guide/guide-content.tsx": {
-    "file": "assets/guide-content-Blrlnyb_.js",
+    "file": "assets/guide-content-QOdhaUzU.js",
     "name": "guide-content",
     "src": "app/guide/guide-content.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_content-page-BVPDjCX5.js",
+      "_content-page-Bu3fTnxU.js",
       "app/components/language-provider.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/page.tsx": {
-    "file": "assets/page-B6sOgSyv.js",
+    "file": "assets/page-eUl-zqwO.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "app/components/language-provider.tsx",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/registry/registry-content.tsx": {
-    "file": "assets/registry-content-C9MsbmMU.js",
+    "file": "assets/registry-content-Dg9Alsri.js",
     "name": "registry-content",
     "src": "app/registry/registry-content.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_content-page-BVPDjCX5.js",
+      "_content-page-Bu3fTnxU.js",
       "app/components/language-provider.tsx",
       "_framework-CXnKph_e.js"
     ]
@@ -130,13 +130,13 @@
     ]
   },
   "app/rsvp/rsvp-route-client.tsx": {
-    "file": "assets/rsvp-route-client-ZBtJVZKL.js",
+    "file": "assets/rsvp-route-client-DB1MRgEf.js",
     "name": "rsvp-route-client",
     "src": "app/rsvp/rsvp-route-client.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_content-page-BVPDjCX5.js",
+      "_content-page-Bu3fTnxU.js",
       "app/components/language-provider.tsx",
       "app/rsvp/confirmation/rsvp-confirmation-view.tsx",
       "app/rsvp/rsvp-confirmation-context.tsx",
@@ -144,19 +144,19 @@
     ]
   },
   "app/schedule/schedule-content.tsx": {
-    "file": "assets/schedule-content-GNpVSA7q.js",
+    "file": "assets/schedule-content-DGn_i_8m.js",
     "name": "schedule-content",
     "src": "app/schedule/schedule-content.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_content-page-BVPDjCX5.js",
+      "_content-page-Bu3fTnxU.js",
       "app/components/language-provider.tsx",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-Bd7cg4TN.js",
+    "file": "assets/layout-segment-context-BujWWfdC.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -167,14 +167,14 @@
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-BSq3ZU2D.js",
+    "file": "assets/router-DbTr8OVt.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -182,7 +182,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-B8zS3LCf.js",
+    "file": "assets/index-7GPrUFGc.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -193,7 +193,7 @@
     "dynamicImports": [
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/rsvp/rsvp-confirmation-context.tsx",
-      "_site-header-DhNlUcOL.js",
+      "_site-header-B-tPCmbw.js",
       "app/schedule/schedule-content.tsx",
       "virtual:vinext-app-browser-entry",
       "_site-footer-CfbejqvP.js",
